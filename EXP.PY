@@ -1,38 +1,4 @@
-# BLENDED LEARNING
-# Implementation of Principal Component Analysis (PCA) for Dimensionality Reduction on Energy Data
-<H3>NAME: MOHAMMED SAAJID S</H3>
-<H3>REGISTER NO.: 212223240093</H3>
-<H3>EX. NO.10</H3>
-<H3>DATE:</H3>
 
-## AIM:
-To implement Principal Component Analysis (PCA) to reduce the dimensionality of the energy data.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-1. **Load the Data**  
-   Import the dataset to begin the dimensionality reduction process.
-
-2. **Explore the Data**  
-   Perform an initial analysis to understand data characteristics, distributions, and potential patterns.
-
-3. **Preprocess the Data (Feature Scaling)**  
-   Scale features to ensure consistency, preparing the data for principal component analysis (PCA).
-
-4. **Apply PCA for Dimensionality Reduction**  
-   Use PCA to reduce the dataset’s dimensionality while retaining the most significant features.
-
-5. **Analyze Explained Variance**  
-   Assess the variance explained by each principal component to determine the effectiveness of dimensionality reduction.
-
-6. **Visualize Principal Components**  
-   Create visualizations of the principal components to interpret patterns and clusters in reduced dimensions.
-
-## Program:
-```py
 # Import necessary libraries
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -80,12 +46,3 @@ plt.xlabel("Principal Component 1")
 plt.ylabel("Principal Component 2")
 plt.title("PCA - Heights and Weights Dataset")
 plt.show()
-
-```
-
-## Output:
-![alt text](image.png)
-![alt text](image-1.png)
-
-## Result:
-Thus, Principal Component Analysis (PCA) was successfully implemented to reduce the dimensionality of the energy dataset.
